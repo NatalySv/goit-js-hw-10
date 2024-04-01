@@ -2,6 +2,7 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import iconError from '../img/icon-error.svg';
 
 const inputDate = document.querySelector('#datetime-picker');
 const startBtn = document.querySelector('button[data-start]');
@@ -29,13 +30,12 @@ const options = {
         title: 'Error',
         titleColor: 'rgb(255, 255, 255)',
         titleSize: '16',
-        titleLineHeight: '',
         message: 'Please choose a date in the future',
         messageColor: 'rgb(255, 255, 255)',
         messageSize: '16',
-        messageLineHeight: '',
         backgroundColor: 'rgb(239, 64, 64)',
         position: 'topRight',
+        iconUrl: iconError,
       });
     } else {
       userSelectedDate = selectedDates[0].getTime();

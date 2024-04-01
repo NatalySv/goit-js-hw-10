@@ -94,20 +94,10 @@ body > #myIziToast {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.03em;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   border-radius: 4px;
   padding: 20px;
   width: 302px;
   height: 64px;
-  background-color: rgb(239, 64, 64);
   border-bottom: 2px solid #ffbebe;
-}
-/* 
-body > .iziToast-title,
-body > .iziToast-message {
-  background-color: #ef4040;
-  border-bottom: 2px solid #ffbebe;
-} */
-
-body > .iziToast-message {
 }
