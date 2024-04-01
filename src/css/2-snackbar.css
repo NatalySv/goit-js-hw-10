@@ -1,0 +1,62 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 72px;
+  margin-bottom: 16px;
+}
+
+input[type='number'] {
+  width: 348px;
+  height: 40px;
+}
+
+.form > fieldset {
+  max-width: 360px;
+  margin-bottom: 24px;
+}
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+}
+
+input[type='radio'] {
+}
+
+.form button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  border-style: none;
+}
+
+.form button:hover {
+  background-color: #6c8cff;
+}
