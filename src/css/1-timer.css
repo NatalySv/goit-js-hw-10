@@ -22,6 +22,7 @@ h1 {
 }
 
 #datetime-picker:active {
+  outline: none;
   color: #000;
   border: 1px solid #4e75ff;
 }
