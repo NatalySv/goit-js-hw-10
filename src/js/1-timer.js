@@ -23,7 +23,6 @@ const options = {
   minuteIncrement: 1,
   onClose(selectedDates) {
     if (selectedDates[0] <= Date.now()) {
-      // window.alert('Please choose a date in the future');
       startBtn.disabled = true;
       iziToast.error({
         id: 'myIziToast',
