@@ -22,6 +22,17 @@
 input[type='number'] {
   width: 348px;
   height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type='number']:hover {
+  border: 1px solid #000;
+}
+
+input[type='number']:active {
+  border: 1px solid #4e75ff;
 }
 
 .form > fieldset {
@@ -37,9 +48,25 @@ fieldset {
   border-radius: 4px;
   stroke-width: 1px;
   stroke: #808080;
+  outline: none;
+}
+
+fieldset:hover {
+  stroke: #000;
 }
 
 input[type='radio'] {
+  border: 1px solid #000;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+}
+
+input[type='radio']:active {
+  border: 1px solid #4e75ff;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
 }
 
 .form button {
