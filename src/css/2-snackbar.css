@@ -20,6 +20,8 @@
 }
 
 input[type='number'] {
+  font-size: 16px;
+  letter-spacing: 0.04em;
   width: 348px;
   height: 40px;
   border: 1px solid #808080;
