@@ -6,10 +6,10 @@ import iconError from '../img/icon-error.svg';
 
 const inputDate = document.querySelector('#datetime-picker');
 const startBtn = document.querySelector('button[data-start]');
-let days = document.querySelector('span[data-days]');
-let hours = document.querySelector('span[data-hours]');
-let minutes = document.querySelector('span[data-minutes]');
-let seconds = document.querySelector('span[data-seconds]');
+const days = document.querySelector('span[data-days]');
+const hours = document.querySelector('span[data-hours]');
+const minutes = document.querySelector('span[data-minutes]');
+const seconds = document.querySelector('span[data-seconds]');
 
 startBtn.disabled = true;
 let userSelectedDate = 0;
