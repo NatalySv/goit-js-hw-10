@@ -42,7 +42,7 @@ function promisCreat(isSuccess) {
   promise
     .then(value => {
       iziToast.error({
-        ...iziOptions,
+        ...iziOptionsOk,
         message: `Fulfilled promise in ${value}ms`,
         backgroundColor: 'rgb(89, 161, 13)',
         iconUrl: iconOk,
@@ -57,6 +57,16 @@ function promisCreat(isSuccess) {
       });
     });
 }
+
+const iziOptionsOk = {
+  id: 'myIziToast',
+  title: 'Ok',
+  titleColor: 'rgb(255, 255, 255)',
+  titleSize: '16',
+  messageColor: 'rgb(255, 255, 255)',
+  messageSize: '16',
+  position: 'topRight',
+};
 
 const iziOptions = {
   id: 'myIziToast',
